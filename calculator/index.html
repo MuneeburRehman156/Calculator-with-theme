@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+   
+<section>
+    <i class="fa-solid fa-moon" id="icon"></i>
+
+    <div class="container">
+       <div class="calculator">
+        <div class="input-sec">
+            <input readonly type="text" id="inp">
+        </div>
+        <div class="buttons">
+            <div class="row1">
+                <button class="operator" onclick="ac()">AC</button>
+                <button  class="operator" onclick="de()">DE</button>
+                <button  class="operator"  onclick="num('.')">.</button>
+                <button  class="operator" onclick="num('/')">/</button>
+            </div>
+            <div class="row2">
+                <button onclick="num('7')">7</button>
+                <button onclick="num('8')">8</button>
+                <button onclick="num('9')">9</button>
+                <button class="operator" onclick="num('*')">*</button>
+            </div>
+            <div class="row3">
+                <button onclick="num('4')">4</button>
+                <button onclick="num('5')">5</button>
+                <button onclick="num('6')">6</button>
+                <button class="operator" onclick="num('-')">-</button>
+            </div>
+            <div class="row4">
+                <button onclick="num('1')">1</button>
+                <button onclick="num('2')">2</button>
+                <button onclick="num('3')">3</button>
+                <button class="operator" onclick="num('+')">+</button>
+            </div>
+            <div class="row5">
+                <button id="zero" onclick="num('00')">00</button>
+                <button onclick="num('0')">0</button>
+                <button class="operator" onclick="eq()">=</button>
+            </div>
+        </div>
+       </div>
+    </div>
+    
+</section>
+
+
+<script src="index.js"></script>
+</body>
+</html>

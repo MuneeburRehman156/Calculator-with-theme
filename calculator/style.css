@@ -82,3 +82,44 @@ button:hover{
 #zero{
     width: 145px;
 }
+
+
+@media (max-width: 768px) {
+    .calculator {
+        width: 90%;
+        padding: 30px;
+    }
+    
+    button {
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+    }
+    
+    #zero {
+        width: 115px;
+    }
+}
+
+@media (max-width: 480px) {
+    .calculator {
+        width: 95%;
+        padding: 20px;
+    }
+    
+    .input-sec input {
+        height: 50px;
+        font-size: 18px;
+    }
+    
+    button {
+        width: 40px;
+        height: 40px;
+        font-size: medium;
+        margin: 4px;
+    }
+    
+    #zero {
+        width: 90px;
+    }
+}
